@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#home {
+  background-color: #0b0e3b;
+  color: #b6ff00;
+}
+#about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('img/grassfeild.jpg'); /* use your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contact {
+  background-color: #222;
+  color: white;
+}
+
+.intro-box {
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: #333;
+}
+
+.social-icons a {
+  margin: 0 15px;
+  color: white;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #0d6efd;
+}
